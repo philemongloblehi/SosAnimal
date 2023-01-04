@@ -1,0 +1,248 @@
+@charset "UTF-8";
+ 
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Great Vibes', cursive; font-family: 'Lora', serif;*/
+body,html {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Great Vibes', cursive; font-family: 'Lora', serif; 
+    }
+a,a:hover{
+    text-decoration: none;
+}
+container-fluid{
+    padding: 0;
+    
+}
+
+/*header*/
+.header{
+    background-color:#FFC138;
+    height: 80px;
+    line-height: 80px;
+}
+.logo{
+    color: ghostwhite;
+    text-transform:uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu a{
+  color: ghostwhite;
+    margin-right: 10px;  
+}
+.menu a:hover{
+    color: #4F16F0;
+}
+/*banniere*/
+.banner{
+    width: 70%;
+    max-width: 100%;  
+}
+.ban{
+    width: 70%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.ban img{
+    width: 70%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 99;
+    
+}
+.inner-banner{
+position: absolute;
+top: 400px;
+left: 30px;
+width: 100%;
+text-align: center;
+}
+.inner-banner h1{
+    color: black;
+    text-shadow: 1px 1px 20px ;
+}
+
+/*A propos*/
+
+
+#apropos{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.class1{
+    border: 1px dotted black;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-top: 100px;
+    background-color: lightgray;
+}
+
+.article h2 {
+    margin-top: 100px;
+    margin-bottom: 400px;
+}
+
+ .apropos .article h2 , p{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    
+ }
+
+.row h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+ .row , ul{
+    text-align: justify;
+    margin-left: 70px;
+ }
+
+ 
+ /*images*/
+
+#images{
+    color: #FFC138;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    text-shadow: 2px 4px 3px #000 ;
+    }
+.images article{
+    text-align: center;
+    font-style: italic;
+    word-spacing: 4%;
+
+}
+
+/*Contact*/
+
+
+
+   
+#contact{
+    text-align: center;
+     width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+.formulaire {
+    margin-left: 300px;
+
+}
+.container1{
+    position: relative;
+    background-color: #FFC138;
+    height: 50px;
+ }
+
+form {
+    position: relative;
+    width: 80%;
+    border-radius: 30px;
+    background: #fff;
+    }
+    .form-left-decoration,
+    .form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    background: #FFC138;
+    }
+    .form-left-decoration {
+    bottom: 60px;
+    left: -30px;
+    }
+    .form-right-decoration {
+    top: 60px;
+    right: -30px;
+    }
+    .form-left-decoration:before,
+    .form-left-decoration:after,
+    .form-right-decoration:before,
+    .form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: #fff;
+    }
+    .form-left-decoration:before {
+    top: -20px;
+    }
+    .form-left-decoration:after {
+    top: 20px;
+    left: 10px;
+    }
+    .form-right-decoration:before {
+    top: -20px;
+    right: 0;
+    }
+    .form-right-decoration:after {
+    top: 20px;
+    right: 10px;
+    }
+    .circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    }
+    .form-inner {
+    padding: 40px;
+    }
+    .form-inner input,
+    .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #c4c6c7d9;
+    }
+    .form-inner textarea {
+    resize: none;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid #FFC138;
+    background: #FFC138; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button:hover {
+    background: #FFC138;
+    } 
+  
+    form {
+    width: 60%;
+    }

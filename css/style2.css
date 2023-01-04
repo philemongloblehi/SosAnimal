@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Great Vibes', cursive; font-family: 'Lora', serif;*/
+body,html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Great Vibes', cursive; font-family: 'Lora', serif;
+    background-image: url(../img/animaux.jfif);
+    background-size: 1500px;
+    background-repeat: no-repeat ;}
+    
+    .header{
+    background-color: #FFC138;
+        height: 80px;
+        line-height: 80px;
+    }
+    .logo{
+        color: ghostwhite;
+        text-transform:uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+        float: left;
+        text-decoration: none;
+    }
+    .menu{
+        float: right;
+        
+    }
+    .menu a{
+      color: ghostwhite;
+        margin-right: 10px;  
+        text-decoration: none;
+    }
+    .menu a:hover{
+        color: #4F16F0;
+    }
+h1,h2{
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}   
+h3,h4{
+    margin-top: 5px;
+
+}
+h3{
+    font-weight: bold;
+}
+h5{
+    margin-bottom: 50px;
+}
+
+.circle.multi-line{
+    margin: 30px;
+    margin-top: 250px;
+    margin-bottom: 10px;
+    width: 500px;
+    background: #FFC138;
+    height: 200px;
+    text-align: center;
+    border-radius: 100px;
+    line-height: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: right;
+}
+form{
+    margin: 30px;
+    width: 400px;
+    background-color:darkgray;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    margin-top: 800px;
+    border-radius: 100px;
+ }
+ div{
+    text-align: justify;
+    margin-left: 100px;
+ }
