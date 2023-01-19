@@ -1,61 +1,127 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Sos Animal</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-
+    <title>Sos Animal</title>
   </head>
-
-  <!--contenu du site-->
-  <body>
-    <!--header-->
-   <header class="container-fluid header">
-      <div class="container">
-        <a href="#" class="logo"> Sos animal</a>
-        <nav class="menu">
-          <a href="index.html">Accueil</a>
-          <a href="#apropos">Présentation de l'assocation</a>
-          <a href="#images">Les animaux de Sos animal</a>
-          <a href="Evenements.html"> Les Evenements</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-   </header>
-   <!--  fin header-->
-
-   <!--  banniere-->
-    <section class="container-fluid banner">
-      <div class="ban">
-       <img src="img/ban2.jpg" alt="Banniere du site">
-      </div>
-     
-    </section>
-    <!-- fin banniere-->
-    
-    <section class="container-fluid footer">
-        <div>
-            <form action="/" class="decor formulaire" >
-                <div class="form-left-decoration"></div>
-                <div class="form-right-decoration"></div>
-                <div class="circle"></div>
-                <div class="form-inner">
-                    <h2 id ="contact">Contactez-nous</h2>
-                    <input type="text" placeholder="Nom et Prénom">
-                    <input type="email" placeholder="Email">
-                    <textarea placeholder="Message..." rows="5"></textarea>
-                    <button type="submit" href="/">Envoyer</button>
-                </div>
-            </form>
-        </div>
-    </section>
-  </body>
-  <footer class="container-fluid footer">
-    <div class="container1">
+  <body class="">    
+       
+  <!-- Menu navigation  -->
+  <nav class="navbar navbar-expand-md navbar-dark navbar-background-color fixed-top">
+    <div class="navbar-pull-right-brand">
+      <a class="navbar-brand" href="index.html">SOS ANIMAL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
-  </footer>
-  
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <div class="container">
+        <div class="pull-right">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#apropos">Présentation de l'assocation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#images"> Les animaux de Sos animal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Evenements.html"> Les Evenements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- fin Menu navigation  -->
+
+  <!--  -->
+  <div class="container">
+    <div class="py-5 text-center">
+      <div class="mt-3 mx-auto mb-4">
+        <img class="sos-img" src="img/ban2.jpg" alt="Banniere du site">
+      </div>
+      <p class="h1">
+        Contactez-nous
+      </p>
+    </div>
+  </div>
+
+  <main role="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 offset-1">
+          <form class="needs-validation" novalidate>
+            <div class="row">
+              <div class="col-12 mb-3">
+                <label for="firstName">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+              <div class="col-12 mb-3">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+            </div>
+    
+            <div class="mb-4">
+              <label for="address">Address</label>
+              <textarea type="text" class="form-control" id="address" placeholder="1234 Main St" required></textarea>
+            </div>
+    
+            
+            <button class="mt-4 btn btn-warning btn-lg btn-block" type="submit">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mainfooter" role="contentinfo">  
+      <div class="footer-middle">  
+      <div class="container">  
+        <div class="row">  
+           
+          
+          <div class="mb-5 col-md-3">  
+            <h4> Suivez-nous </h4>
+            <ul class="social-network social-circle">  
+              <li> <a href="#" class="icoLinkedin" title="Facebook"> <i class="bi-facebook"> </i> </a> </li>  
+              <li> <a href="#" class="icoLinkedin" title="Linkedin"> <i class="bi-linkedin"> </i> </a> </li>  
+              <li> <a href="#" class="icoYoutube"> <i class="bi-youtube" aria-hidden="true"> </i> </a> </li>  
+            </ul>               
+          </div>  
+        </div>  
+        <div class="row">  
+        <div class="col-md-12 copy">  
+        <p class="text-center"> © Copyright 2023 - SOS Animal.  All rights reserved. Designed by Alizee Gueye <i class="bi-balloon-heart-fill"> </i> </p>
+        </div>  
+        </div>  
+      </div>  
+      </div>  
+    </footer>  
+   
+  </main>
+  <!-- fin -->
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
 </html>
